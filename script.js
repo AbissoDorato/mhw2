@@ -54,6 +54,7 @@ function risultatoFinale(){
         }
         if(max < conta){
             risultato = choice;
+            max=conta;
         }
     }
     if (max === 1) return answers["one"];
